@@ -1,12 +1,14 @@
 .hero-section,
 .footer{
-    background-color: #1F2937;
+    /* background-color: #1F2937; */
+    background-color: #252335;
 }
 
 .hero h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .logo{
@@ -24,7 +26,8 @@ a {
 
 .callout-container, 
 button {
-    background-color: #3882F6;
+    /* background-color: #3882F6; */
+    background-color: #e65369;
 }
 
 h2 {
@@ -98,7 +101,11 @@ body{
     align-items: center;
     height: 400px;
     width: 900px;
-    background-color: #6D747D;
+    /* background-color: #6D747D; */
+}
+
+.hero-img{
+    width: 800px;
 }
 
 .content{
@@ -125,8 +132,13 @@ body{
 .box-image{
     height: 200px;
     width: 200px;
-    border-radius: 20px;
-    border: 5px solid #3882F6;
+    box-shadow: 0 6px 20px rgb(0 0 0 / 0.2);
+    /* box-shadow: 0 8px 8px -4px lightgrey; */
+}
+
+.cover-img{
+    height: 200px;
+    width: 200px;
 }
 
 .box-container p {
@@ -165,7 +177,7 @@ button {
     display: flex;
     align-items:  center;
     justify-content: space-around;
-    width: 1250px;
+    width: 1500px;
     height: 200px;
     margin: 130px;
     color: #F9FAF8;
